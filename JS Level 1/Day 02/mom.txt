@@ -1,0 +1,12 @@
+Date 16th june , 2024
+
+Last class - logical questions on function (Number Traversal) - 5ques
+
+continue 
+
+1- armstrong questions 
+2- print a number from front 
+
+
+
+
