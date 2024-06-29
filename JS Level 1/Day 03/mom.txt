@@ -1,0 +1,11 @@
+
+Function revise 
+Function = Number System 
+
+
+Functions -  
+
+2 principles - DRY and KISS
+
+DRY = DO NOT REPEAT YOURSELF
+- ABSTRACTION LAYER - 
