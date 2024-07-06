@@ -1,0 +1,17 @@
+
+
+functions 
+
+
+Array and objects 
+
+[12,3,6,7,34,56,88]
+odd number 
+even number count
+
+
+- [3,4,5,7,8,11,13,45,36,77]
+//prime number 
+
+
+
