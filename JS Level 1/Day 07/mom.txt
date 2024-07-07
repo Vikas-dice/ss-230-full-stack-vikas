@@ -1,0 +1,17 @@
+Date 7th july , 2024 
+
+LAST CLASS
+-Array intro
+-object intro
+-mutable and immutable
+-traversal
+
+
+Array Questions
+-Array - odd even count 
+- Array- max and min element - span (max-min)
+-Array - prime 
+
+-ObJECT CLONING AND MERGING 
+
+deep copy and shallow copy - array and object

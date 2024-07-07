@@ -131,8 +131,8 @@ for(const key in object1){
     console.log(object1[key])
 }
 
-for(const key in object1){
-    console.log(key,object1[key]);
+for(const maal in object1){
+    console.log(maal,object1[maal]);
 }
 
 
