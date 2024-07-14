@@ -1,0 +1,13 @@
+
+Last Class - Deep shallow copy , rest spread , array object 
+
+Date 14th July , 2024
+
+-Function cons 
+- this 
+- new keyword 
+
+q- Two Sum Pair leetcode 
+
+
+
