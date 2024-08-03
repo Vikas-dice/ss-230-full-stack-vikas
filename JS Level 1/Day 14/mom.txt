@@ -1,0 +1,24 @@
+
+
+Date 8th august 2024
+
+Last Class - class oops supercons inheritance method overloading method overiding property overiridng 
+
+
+public
+private 
+browser apis
+sync vs async code 
+
+
+
+
+
+settimeout
+setinterval
+
+
+
+
+
+
