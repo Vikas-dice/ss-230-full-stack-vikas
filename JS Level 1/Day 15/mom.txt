@@ -1,0 +1,15 @@
+
+
+Date 4th aug 2024
+
+Last Class - recap ....
+
+browser api
+sync vs async 
+
+
+
+map filter reduce 
+async js 
+
+

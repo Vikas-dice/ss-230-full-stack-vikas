@@ -68,5 +68,6 @@ human1.doilove();
 
 
 
+
 // let human2=new Human(4,4,4,4,4,4,4,4,4);
 // console.log(human2);
