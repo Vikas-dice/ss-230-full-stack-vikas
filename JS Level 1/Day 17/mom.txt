@@ -1,0 +1,19 @@
+
+
+DOM = Document Object Model 
+dom?
+html - browser - broswer - Object- document 
+
+
+selectors
+-html selectors
+-queryselector
+
+
+- events 
+-mouse
+-keyboard
+-form
+
+
+-------------------------------------------

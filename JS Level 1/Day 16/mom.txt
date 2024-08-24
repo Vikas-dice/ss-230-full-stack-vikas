@@ -1,0 +1,19 @@
+
+
+Async js 
+
+callbacks 
+issues with callbacks
+inversion of control
+callback hell
+
+resolve callbackhell -
+promises
+resolve reject
+errors
+asyn await 
+fetch api
+
+
+
+
