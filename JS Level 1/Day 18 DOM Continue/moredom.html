@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="main">
+
+
+        <!-- //h1
+        //img 
+
+        //button -->
+    </div>
+    <div id="div1">
+
+    </div>
+    <script>
+        let maindiv=document.getElementById("main")
+        let heading1=document.createElement("h1")
+        let Image =document.createElement("img")
+        let btn = document.createElement("button")
+        heading1.innerHTML="vikas chaudhary"
+        Image.src=`https://media.istockphoto.com/id/2159567212/photo/temples-and-gardens-of-celaya.jpg?s=1024x1024&w=is&k=20&c=bS5bBD79HUBcRcVVq9fbqGKtDBA4sRpuZtVSdwbxkS4=`
+        btn.innerHTML="click me"
+
+
+        maindiv.append(heading1)
+        maindiv.append(Image)
+        maindiv.append(btn)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        let head1=document.createElement("h1")
+        head1.innerHTML="vikas chaudhary"
+        console.log(head1);
+
+        let div=document.getElementById("div1")
+        div.appendChild(head1)
+        
+let para=document.createElement("p")
+para.innerText="some random words "
+
+div.prepend(para)
+
+let div2=document.createElement("div")
+div2.innerHTML=`<h2>sOME H2 </h2>`;
+div.appendChild(div2)
+
+
+
+
+    </script>
+</body>
+</html>

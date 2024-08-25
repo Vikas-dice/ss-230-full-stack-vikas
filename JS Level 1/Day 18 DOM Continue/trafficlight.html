@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Traffic light demo</h1>
+
+    <button>Green</button>
+    <button>Red</button>
+    <button>Yellow</button>
+
+    <script>
+        let btns=document.querySelectorAll("button")
+
+        // console.log(btns[0]);
+
+        btns[0].addEventListener("click",function(){
+            // btns[0].style.backgroundcolor=null;
+            btns[1].style.backgroundColor='red'
+            btns[2].style.backgroundColor='yellow'
+        })
+
+        btns[1].addEventListener("click",function(){
+            btns[1].style.backgroundColor=null
+            btns[0].style.backgroundColor='green'
+            btns[2].style.backgroundColor='yellow'
+        })
+        
+
+        btns[2].addEventListener("click",function(){
+            btns[2].style.backgroundColor=null
+            btns[0].style.backgroundColor='green'
+            btns[1].style.backgroundColor='red'
+        })
+
+        
+
+
+
+    </script>
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,15 @@
+
+
+Date 25th Aug 2024
+Last Class - DOM , selectors, events 
+
+
+events
+1-Mouse events 
+2-Keyboard events
+3-form IMP
+
+
+
+
+

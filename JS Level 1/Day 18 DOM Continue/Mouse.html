@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1 id="heading"><span>Counter</span>0</h1>
+    <button id="btn1">increment </button>
+    <button id="btn2">decrement</button>
+    <button id="btn3">reset</button>
+
+
+    
+</body>
+
+<script>
+    let span=document.getElementsByTagName("span")
+    let headng =document.getElementById("heading")
+    let incbtn=document.getElementById("btn1")
+    let decbtn=document.getElementById("btn2")
+let resetbtn=document.getElementById("btn3")
+
+let counter=0;
+
+
+
+
+
+
+incbtn.addEventListener("click",function(){
+    counter++;
+    // span.innerText=counter
+    //  span.innerHTML=counter
+    // span.innerHTML=counter
+    // span.innerText=counter;
+    // span.innerText=counter
+    headng.innerText=` Counter ${counter}`
+ })
+
+ decbtn.addEventListener("click",function(){
+     counter--;
+    //  span.innerText=counter;
+    headng.innerText=` Counter ${counter}`
+})
+
+ resetbtn.addEventListener("click",function(){
+    counter=0;
+    // headng.innerText=counter
+    // span.innerText=counter;
+    headng.innerText=` Counter ${counter}`
+})
+
+console.log(headng,incbtn,decbtn,resetbtn);
+
+
+
+// console.log(document)
+
+
+    </script>
+</html>
