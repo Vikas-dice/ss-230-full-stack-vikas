@@ -9,6 +9,16 @@ const ListItem = (props) => {
         </Col>
         <Col>
           <Button
+            className="ml-3"
+            variant="primary"
+            onClick={() => {
+              props.beforeUpdateItem(props.item.id);
+            }}
+          >
+            Edit
+          </Button>
+
+          <Button
             variant="danger"
             onClick={() => {
               props.onDeleteHandler(props.item.id);

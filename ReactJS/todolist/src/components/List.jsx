@@ -8,6 +8,7 @@ const List = (props) => {
           key={item.id}
           item={item}
           onDeleteHandler={props.onDeleteHandler}
+          beforeUpdateItem={props.beforeUpdateItem}
         />
       ))}
     </>

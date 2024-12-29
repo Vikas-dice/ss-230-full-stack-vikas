@@ -10,7 +10,7 @@ const App = () => {
     { id: 1, value: "Tea" },
     { id: 2, value: "Cofffe" },
   ]);
-
+  const [beforeUpdateParticular, setBeforeUpdateParticularItem] = useState("");
   const onAddItem = (item) => {
     const newarr = [...list];
     newarr.push({ id: Date.now(), value: item });
@@ -22,10 +22,20 @@ const App = () => {
     setList(updatedArray);
   };
 
+  const beforeUpdateItem = (id) => {
+    const item = list.filter((item) => item.id === id);
+
+    setBeforeUpdateParticularItem(item[0]);
+  };
+
   return (
     <Container>
-      <Input btnHandler={onAddItem} />
-      <List list={list} onDeleteHandler={onDeleteItem} />
+      <Input btnHandler={onAddItem} updateItem={beforeUpdateParticular} />
+      <List
+        list={list}
+        onDeleteHandler={onDeleteItem}
+        beforeUpdateItem={beforeUpdateItem}
+      />
     </Container>
   );
 };

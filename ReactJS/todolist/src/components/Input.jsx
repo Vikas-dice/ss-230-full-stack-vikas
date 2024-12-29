@@ -1,9 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { InputGroup, Form, Button } from "react-bootstrap";
 
 const Input = (props) => {
-  const [input, setInput] = useState("Coffee");
-  console.log(props);
+  console.log(props.updateItem.value);
+  const [input, setInput] = useState("");
 
   const onClickHandler = () => {
     if (input.length === 0) {
@@ -14,6 +14,9 @@ const Input = (props) => {
     setInput("");
   };
 
+  useEffect(() => {
+    setInput(props.updateItem.value);
+  }, [props.updateItem.value]);
   return (
     <>
       <InputGroup className="mb-3">
